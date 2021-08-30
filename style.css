@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    max-width: 800px;
+    background: whitesmoke;
+}
+
+.mobile{
+    background: url('./img/mobile.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 170px;
+}
+
+.btn{
+    background: transparent;
+    border: 1px solid orange;
+    color: white;
+}
+
+.btn:active{
+    background: orange;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    grid-gap: 1em;
+    padding: 15px;
+}
+
+.men{
+    background: url('./img/men.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 85px;
+}
+
+.woman{
+    background: url('./img/women.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 85px;
+}
+
+.girl{
+    background: url('./img/girls.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 85px;
+}
+
+.boy{
+    background: url('./img/boys.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 85px;
+}
+
+.offer{
+    padding: 10px;
+}
+
+.icon a{
+    color: black;
+    padding: 5px;
+}
+
+.icon a:hover{
+    color: orange;
+}
+
+.links a{
+    color: black;
+    padding: 5px;
+}
+
+.safety{
+    background: url('./img/security.png');
+    background-position: center;
+    background-size: cover;
+    padding: 60px;
+    width: 100%;
+}
+
+footer{
+    background-color: whitesmoke;
+}
