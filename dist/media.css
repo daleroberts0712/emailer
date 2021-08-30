@@ -1,0 +1,46 @@
+@media (max-width:1040px){
+    .mobile{
+        padding: 120px;
+    }
+
+    .row{
+        grid-template-columns: repeat(1, 4fr);
+    }
+
+    .men{
+        background: url('./img/men.jpg');
+        background-position: center bottom;
+        background-size: cover;
+        padding: 90px;
+    }
+    
+    .woman{
+        background: url('./img/women.jpg');
+        background-position: center bottom;
+        background-size: cover;
+        padding: 90px;
+    }
+    
+    .girl{
+        background: url('./img/girls.jpg');
+        background-position: center;
+        background-size: cover;
+        padding: 100px;
+    }
+    
+    .boy{
+        background: url('./img/boys.jpg');
+        background-position: center;
+        background-size: cover;
+        padding: 100px;
+    }
+}
+
+@media (max-width:768px){
+    body{
+        margin-right: 10px;
+    }
+    .safety{
+        padding: 40px;
+    }
+}
